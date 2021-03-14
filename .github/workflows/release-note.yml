@@ -21,6 +21,6 @@ jobs:
         run: npm install github-release-notes -g
 
       - name: Create a release
-        run: gren release
+        run: gren release --override
         env:
           GREN_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
