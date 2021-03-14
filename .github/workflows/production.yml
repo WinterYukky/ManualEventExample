@@ -1,5 +1,4 @@
-
-name: CI
+name: production
 
 # Controls when the action will run. 
 on:
